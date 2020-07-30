@@ -134,7 +134,7 @@ class Render(object):
 bitmap = Render()
 
 # Lineas 
-bitmap.glCreateWindow(100, 100)
+bitmap.glCreateWindow(1000,1000)
 bitmap.glClearColor(0.33, 0.33, 0.33)
 bitmap.glViewport(10, 10, 50, 50)
 bitmap.glColor(0.35, 0, 0)
